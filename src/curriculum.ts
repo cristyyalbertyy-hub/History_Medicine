@@ -37,7 +37,7 @@ export const branches: Branch[] = [
         title: "Hippocrates and Rational Medicine",
         assets: {
           video: "/AF_HRM_V.mp4",
-          podcast: "/AF_HRM_A.m4a",
+          podcast: "/AF_HRM_P.m4a",
           infographic: "/AF_HRM_I.png",
           questionnaire: "/AF_HRM_Q.csv",
         },
@@ -45,12 +45,22 @@ export const branches: Branch[] = [
       {
         id: "AF_THM",
         title: "Theory of Humors",
-        assets: null,
+        assets: {
+          video: "/AF_TH_V.mp4",
+          podcast: "/AF_TH_P.m4a",
+          infographic: "/AF_TH_I.png",
+          questionnaire: "/AF_TH_Q.csv",
+        },
       },
       {
         id: "AF_ARI",
         title: "Aristotle",
-        assets: null,
+        assets: {
+          video: "/AF_A_V.mp4",
+          podcast: "/AF_A_P.m4a",
+          infographic: "/AF_A_I.png",
+          questionnaire: "/AF_A_Q.csv",
+        },
       },
     ],
   },
