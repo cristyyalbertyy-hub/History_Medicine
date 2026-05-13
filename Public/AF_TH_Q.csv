@@ -1,0 +1,45 @@
+"According to the World Health Organization (WHO) constitution, what is the definition of 'health'?","A state of complete physical, mental, and social well-being, not merely the absence of disease or infirmity."
+"In the context of European health systems, what does the value of 'universality' mean?",No individual is barred from access to health care.
+How is 'solidarity' defined in the financial arrangement of European national health systems?,The collective need to ensure accessibility for all regardless of individual financial contribution.
+"In European health policy, what is the definition of 'equity' regarding healthcare access?","Equal access according to need, regardless of ethnicity, gender, age, social status, or ability to pay."
+At which university was the concept of Evidence-Based Medicine (EBM) first introduced?,McMaster University in Canada.
+"In health systems, what is a 'benefit basket' (or benefit catalogue)?",The explicit definition of health care technologies and services covered by public funding or insurance.
+What is the primary function of Health Technology Assessment (HTA)?,To provide evidence-based information for policy-making regarding the use and consequences of health technologies.
+"In economic evaluations of healthcare, what are the two components of the 'societal perspective'?","The aggregation of all perspectives, including the patient, the institution, the government, and the wider economy."
+"In the taxonomy of health outcome measures, how do 'intermediate outcomes' differ from 'final outcomes'?","Intermediate outcomes measure clinical markers (like blood pressure), while final outcomes measure health events or mortality."
+What does the mnemonic 'NOIR' stand for in the context of measurement scales?,"Nominal, Ordinal, Interval, and Ratio."
+How is a 'Nominal' scale of measurement defined?,"A scale used for classification where numbers or labels have no quantitative value or order (e.g., colors)."
+How is an 'Ordinal' scale of measurement defined?,"A scale where items are ranked in a specific order but the distance between ranks is not defined (e.g., small, medium, large)."
+What is the defining characteristic of a 'Ratio' scale compared to an 'Interval' scale?,A ratio scale has an unambiguous zero point indicating the absolute absence of the phenomenon.
+The Time Trade-Off (TTO) and Standard Gamble (SG) are used to measure _____ for health states.,Cardinal preferences
+"In a rating scale where death is judged at position $d$ (where $0$ is the worst possible state and $1$ is the best), what is the preference value $h$ for a state placed at $x$?",$h = \frac{x - d}{1 - d}$
+The Standard Gamble (SG) technique is based directly on the axioms of which theory?,von Neumann-Morgenstern (vNM) utility theory.
+"In the Time Trade-Off (TTO) method for a chronic state $i$ lasting $t$ years, if the respondent is indifferent at $x$ years of healthy life, what is the preference score $h_i$?",$h_i = \frac{x}{t}$
+What is the core assumption required to extend vNM utility theory to multi-attribute outcomes?,Utility independence among the attributes.
+"In the Health Utilities Index (HUI), what does 'structural independence' mean?",It is conceivable for an individual to function at any level on one attribute regardless of levels on others.
+What is the main difference between HUI2 and HUI3 regarding sensory attributes?,"HUI2 uses a single 'sensation' attribute, while HUI3 expands it into three: vision, hearing, and speech."
+"According to Ezio Di Nucci, why are empirical answers insufficient for healthcare professionals?","Empirical answers do not exhaust all relevant questions, such as ethical dilemmas and decision-making values."
+What is the difference between a 'practical' question and a 'theoretical' question in philosophy?,"Practical questions concern what to do, while theoretical questions concern what is the case."
+Who is the author of the famous philosophical phrase 'cogito ergo sum'?,René Descartes.
+What is the 'phenomenal character' of an experience?,The subjective perspective of 'what it is like' for an individual to have that specific experience.
+What is the philosophical doctrine of 'determinism'?,The view that every state of the universe is completely causally determined by a previous state and the laws of nature.
+"In meta-ethics, what is the core claim of 'Cognitivism'?",Moral judgments express beliefs that can be objectively true or false.
+"In meta-ethics, what is the core claim of 'Non-cognitivism'?",Moral judgments express attitudes or desires rather than truth-apt beliefs.
+How does 'Cultural Relativism' differ from 'Meta-ethical Relativism'?,"Cultural Relativism is a descriptive observation of diverse practices, while Meta-ethical Relativism claims there is no objective moral truth."
+What is the 'Euthyphro Dilemma' in the context of morality and religion?,"The question of whether God loves the good because it is good, or if it is good because God loves it."
+What is the 'Strong Ethical Egoism' principle?,The normative claim that everyone ought to do whatever they would like to do.
+State the 'Humanity Formula' of Immanuel Kant's Categorical Imperative.,"Act so that you treat humanity, in yourself or others, never merely as a means but always also as an end."
+"In Kantian ethics, what is the 'ought implies can' principle?",One can only be morally obligated to perform actions that are actually possible for them to fulfill.
+What is the fundamental goal of the 'Principle of Utility' in Utilitarianism?,To maximize aggregate utility (the greatest good for the greatest number) from an impartial point of view.
+How does John Stuart Mill's version of utilitarianism differ from Jeremy Bentham's 'hedonistic' version?,"Mill introduced a distinction between 'higher' and 'lower' pleasures, whereas Bentham focused solely on the quantity of pleasure/pain."
+What is the 'naturalistic fallacy' in ethics?,The error of deriving a normative conclusion (what ought to be) directly from a descriptive premise (what is).
+"In the ethics of dying, what is 'assisted suicide'?","Providing a patient with the means to end their own life, usually at their explicit request."
+What are the two fundamental requirements for 'consent' in healthcare?,Information (disclosure of risks/benefits) and voluntariness (freedom from coercion).
+"In medical ethics, what is 'paternalism'?",Overriding a patient's autonomy or wishes for the sake of what the professional believes is the patient's own good.
+List the 'Four Principles' of biomedical ethics developed by Beauchamp and Childress.,"Autonomy, Non-maleficence, Beneficence, and Justice."
+"In the 'Four Principles' approach, what does 'Non-maleficence' require of a physician?",The obligation to avoid inflicting unnecessary harm on patients.
+"In the 'Four Principles' approach, what does 'Beneficence' require of a physician?",The moral obligation to act for the benefit of others.
+What is 'Luck Egalitarianism' in the context of healthcare distribution?,The view that justice should correct for inequalities resulting from luck but not for those resulting from an individual's responsible choices.
+"According to H.L.A. Hart, how does an 'excuse' differ from a 'justification'?","A justification makes an act right or acceptable, while an excuse acknowledges the act was wrong but removes responsibility from the agent."
+"In responsibility theory, what is 'mitigation'?","The reduction of the degree of blame or punishment due to specific circumstances, even if responsibility is not entirely removed."
+What is the 'Duty of Care' (or special responsibility) in the medical profession?,"The obligation of healthcare professionals to provide assistance and use their skills for the benefit of patients, often extending beyond standard contracts."
