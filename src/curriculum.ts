@@ -37,7 +37,7 @@ export const branches: Branch[] = [
         title: "Hippocrates and Rational Medicine",
         assets: {
           video: "/AF_HRM_V.mp4",
-          podcast: "/AF_HRM_P.m4a",
+          podcast: "/AF_HRM_A.m4a",
           infographic: "/AF_HRM_I.png",
           questionnaire: "/AF_HRM_Q.csv",
         },
