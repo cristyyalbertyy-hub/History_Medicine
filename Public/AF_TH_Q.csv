@@ -1,45 +1,81 @@
-"According to the World Health Organization (WHO) constitution, what is the definition of 'health'?","A state of complete physical, mental, and social well-being, not merely the absence of disease or infirmity."
-"In the context of European health systems, what does the value of 'universality' mean?",No individual is barred from access to health care.
-How is 'solidarity' defined in the financial arrangement of European national health systems?,The collective need to ensure accessibility for all regardless of individual financial contribution.
-"In European health policy, what is the definition of 'equity' regarding healthcare access?","Equal access according to need, regardless of ethnicity, gender, age, social status, or ability to pay."
-At which university was the concept of Evidence-Based Medicine (EBM) first introduced?,McMaster University in Canada.
-"In health systems, what is a 'benefit basket' (or benefit catalogue)?",The explicit definition of health care technologies and services covered by public funding or insurance.
-What is the primary function of Health Technology Assessment (HTA)?,To provide evidence-based information for policy-making regarding the use and consequences of health technologies.
-"In economic evaluations of healthcare, what are the two components of the 'societal perspective'?","The aggregation of all perspectives, including the patient, the institution, the government, and the wider economy."
-"In the taxonomy of health outcome measures, how do 'intermediate outcomes' differ from 'final outcomes'?","Intermediate outcomes measure clinical markers (like blood pressure), while final outcomes measure health events or mortality."
-What does the mnemonic 'NOIR' stand for in the context of measurement scales?,"Nominal, Ordinal, Interval, and Ratio."
-How is a 'Nominal' scale of measurement defined?,"A scale used for classification where numbers or labels have no quantitative value or order (e.g., colors)."
-How is an 'Ordinal' scale of measurement defined?,"A scale where items are ranked in a specific order but the distance between ranks is not defined (e.g., small, medium, large)."
-What is the defining characteristic of a 'Ratio' scale compared to an 'Interval' scale?,A ratio scale has an unambiguous zero point indicating the absolute absence of the phenomenon.
-The Time Trade-Off (TTO) and Standard Gamble (SG) are used to measure _____ for health states.,Cardinal preferences
-"In a rating scale where death is judged at position $d$ (where $0$ is the worst possible state and $1$ is the best), what is the preference value $h$ for a state placed at $x$?",$h = \frac{x - d}{1 - d}$
-The Standard Gamble (SG) technique is based directly on the axioms of which theory?,von Neumann-Morgenstern (vNM) utility theory.
-"In the Time Trade-Off (TTO) method for a chronic state $i$ lasting $t$ years, if the respondent is indifferent at $x$ years of healthy life, what is the preference score $h_i$?",$h_i = \frac{x}{t}$
-What is the core assumption required to extend vNM utility theory to multi-attribute outcomes?,Utility independence among the attributes.
-"In the Health Utilities Index (HUI), what does 'structural independence' mean?",It is conceivable for an individual to function at any level on one attribute regardless of levels on others.
-What is the main difference between HUI2 and HUI3 regarding sensory attributes?,"HUI2 uses a single 'sensation' attribute, while HUI3 expands it into three: vision, hearing, and speech."
-"According to Ezio Di Nucci, why are empirical answers insufficient for healthcare professionals?","Empirical answers do not exhaust all relevant questions, such as ethical dilemmas and decision-making values."
-What is the difference between a 'practical' question and a 'theoretical' question in philosophy?,"Practical questions concern what to do, while theoretical questions concern what is the case."
-Who is the author of the famous philosophical phrase 'cogito ergo sum'?,René Descartes.
-What is the 'phenomenal character' of an experience?,The subjective perspective of 'what it is like' for an individual to have that specific experience.
-What is the philosophical doctrine of 'determinism'?,The view that every state of the universe is completely causally determined by a previous state and the laws of nature.
-"In meta-ethics, what is the core claim of 'Cognitivism'?",Moral judgments express beliefs that can be objectively true or false.
-"In meta-ethics, what is the core claim of 'Non-cognitivism'?",Moral judgments express attitudes or desires rather than truth-apt beliefs.
-How does 'Cultural Relativism' differ from 'Meta-ethical Relativism'?,"Cultural Relativism is a descriptive observation of diverse practices, while Meta-ethical Relativism claims there is no objective moral truth."
-What is the 'Euthyphro Dilemma' in the context of morality and religion?,"The question of whether God loves the good because it is good, or if it is good because God loves it."
-What is the 'Strong Ethical Egoism' principle?,The normative claim that everyone ought to do whatever they would like to do.
-State the 'Humanity Formula' of Immanuel Kant's Categorical Imperative.,"Act so that you treat humanity, in yourself or others, never merely as a means but always also as an end."
-"In Kantian ethics, what is the 'ought implies can' principle?",One can only be morally obligated to perform actions that are actually possible for them to fulfill.
-What is the fundamental goal of the 'Principle of Utility' in Utilitarianism?,To maximize aggregate utility (the greatest good for the greatest number) from an impartial point of view.
-How does John Stuart Mill's version of utilitarianism differ from Jeremy Bentham's 'hedonistic' version?,"Mill introduced a distinction between 'higher' and 'lower' pleasures, whereas Bentham focused solely on the quantity of pleasure/pain."
-What is the 'naturalistic fallacy' in ethics?,The error of deriving a normative conclusion (what ought to be) directly from a descriptive premise (what is).
-"In the ethics of dying, what is 'assisted suicide'?","Providing a patient with the means to end their own life, usually at their explicit request."
-What are the two fundamental requirements for 'consent' in healthcare?,Information (disclosure of risks/benefits) and voluntariness (freedom from coercion).
-"In medical ethics, what is 'paternalism'?",Overriding a patient's autonomy or wishes for the sake of what the professional believes is the patient's own good.
-List the 'Four Principles' of biomedical ethics developed by Beauchamp and Childress.,"Autonomy, Non-maleficence, Beneficence, and Justice."
-"In the 'Four Principles' approach, what does 'Non-maleficence' require of a physician?",The obligation to avoid inflicting unnecessary harm on patients.
-"In the 'Four Principles' approach, what does 'Beneficence' require of a physician?",The moral obligation to act for the benefit of others.
-What is 'Luck Egalitarianism' in the context of healthcare distribution?,The view that justice should correct for inequalities resulting from luck but not for those resulting from an individual's responsible choices.
-"According to H.L.A. Hart, how does an 'excuse' differ from a 'justification'?","A justification makes an act right or acceptable, while an excuse acknowledges the act was wrong but removes responsibility from the agent."
-"In responsibility theory, what is 'mitigation'?","The reduction of the degree of blame or punishment due to specific circumstances, even if responsibility is not entirely removed."
-What is the 'Duty of Care' (or special responsibility) in the medical profession?,"The obligation of healthcare professionals to provide assistance and use their skills for the benefit of patients, often extending beyond standard contracts."
+"According to the humoral theory, what state of the four bodily fluids defines health?",Health is defined as a balanced qualitative state or specific equilibrium of the humours.
+Name the four bodily fluids that constitute the pillars of Hippocratic humoral theory.,"The four humours are Blood, Phlegm, Yellow Bile, and Black Bile."
+Which two primary qualities are associated with the humor Blood (Sanguinous)?,Blood is characterized by Hot and Moist qualities.
+What are the primary qualitative characteristics of the humor Phlegm?,Phlegm is characterized by Cold and Moist qualities.
+Which qualitative pairing defines Yellow Bile (Choleric/Bilious)?,Yellow Bile is characterized by Hot and Dry qualities.
+Black Bile (Melancholic) is associated with which two primary qualities?,Black Bile is characterized by Cold and Dry qualities.
+"In the macrocosmic theory of elements, which element corresponds to the humor Blood?",The humor Blood corresponds to the element of Air.
+To which of the four elements of creation is Phlegm linked?,Phlegm is linked to the element of Water.
+Yellow Bile is considered a microcosmic form of which macrocosmic element?,Yellow Bile corresponds to the element of Fire.
+Which element represents the humor Black Bile in the theory of creation?,Black Bile corresponds to the element of Earth.
+What term did the Greeks use to describe the body's inherent instinctive reaction to restore humoral homeostasis?,The Greeks called this self-healing power $Physis$ (or Vis Medicatrix Naturae).
+The driving force that generates and balances humours from digested food is known as _____.,Innate heat
+"According to Hippocrates, where is the humor Blood thought to originate in the body?",Blood is thought to originate in the heart.
+"In the ancient humoral system, which organ is identified as the source of Yellow Bile?",The liver is identified as the source of Yellow Bile.
+Which organ was traditionally associated with the production of Phlegm?,The brain was traditionally associated with the production of Phlegm.
+Which organ was believed by the Greeks to be the site of origin for Black Bile?,The spleen was believed to be the site of origin for Black Bile.
+What is the primary function of the physician in relation to the humoral state of the patient?,The physician's role is to help nature ($Physis$) restore the state of humoral equilibrium.
+The process where the body's innate heat 'ripens' or 'cooks' an excess humor into an expellable form is called _____.,$Pepsis$ (or coction)
+"In humoral pathology, what occurs during a 'crisis'?",A crisis is the rapid and dramatic expulsion of morbid humoral material from the body.
+How does 'lysis' differ from 'crisis' in the context of humoral discharge?,Lysis refers to the gradual discharge of morbid material rather than a sudden event.
+Galen expanded the humoral theory by categorizing individuals into four main _____.,Temperaments
+A person with a dominant humor of Blood is said to have a _____ temperament.,Sanguinous
+Which temperament is associated with a dominance of Yellow Bile?,The Choleric (or Bilious) temperament is associated with Yellow Bile.
+The Phlegmatic temperament is characterized by the dominance of which humor?,The Phlegmatic temperament is dominated by Phlegm.
+A dominance of Black Bile results in which specific temperament?,It results in a Melancholic temperament.
+"Which season is associated with an increase in the cold-wet humor, Phlegm?",Winter is associated with an increase in Phlegm.
+Spring is thought to cause an increase in which humor due to its wet and hot nature?,Spring causes an increase in Blood.
+The dry heat of Summer encourages the dominance of which bodily fluid?,Summer encourages the dominance of Yellow Bile.
+"Which humor predominates during the cold, dry season of Autumn?",Black Bile predominates during Autumn.
+"Hippocrates identified that 'Pepsis' refers not just to food digestion, but also to the relationship between _____.",The organism and its environment.
+What is the fundamental therapeutic principle of 'allopathic medicine' in humoral theory?,The principle is to treat an illness condition with medication having opposite qualities to the symptoms.
+"If a patient suffers from a cold-dry condition, what qualitative properties should the treatment possess?",The treatment should possess hot and moist qualities.
+Which spiritual essence was believed to be drawn into the lungs and mixed with blood in the heart to bring life?,The $pneuma$ was the spiritual essence believed to animate the body.
+What modern medical concept is the equivalent of the ancient term Vis Medicatrix Naturae?,Homeostasis is the modern equivalent.
+Why did Hippocrates state that it is more important to know the sort of person who has a disease than the disease itself?,Knowing the person allows for an individualistic approach based on their unique humoral constitution.
+Ibn Sina comprehensively detailed the relationship between the individual and the environment through the _____.,Six Essential (Lifestyle) Factors
+"According to the Institute's research, an individual's temperament is a combination of a dominant and a _____ temperament.",Sub-dominant
+"In the temperamental chart, why can a Sanguinous dominant individual not have a Melancholic sub-dominant temperament?",Opposite qualities (Hot/Moist vs. Cold/Dry) cannot exist simultaneously in adjacent temperaments.
+What specific qualitative combination defines the 'ideal' health state of a human being at $37^{\circ}C$?,The ideal human state is defined as Hot and Moist.
+The temperament of minerals is described as _____.,Cold and Dry
+Which qualitative state is assigned to plants in the humoral framework?,Plants are assigned a Cold and Moist temperament.
+"According to the three-organ theory, what is the dominant quality of the Brain?",The dominant quality of the Brain is moistness.
+What is the dominant quality of the Heart in the vital faculty system?,The dominant quality of the Heart is dryness.
+"The Metabolic faculty, seated in the Liver, is characterized by which dominant quality?",The Metabolic faculty is characterized by heat.
+"According to ancient theory, what visible evidence was interpreted as Black Bile?",Evidence included black stools from gastrointestinal bleeding or 'coffee-grounds' vomit.
+Which of the four primary qualities is noted as not being actively involved in maintaining the healthy human body at $37^{\circ}C$?,Coldness is not actively involved in the healthy maintenance of the body's baseline temperature.
+"In the progression from infancy to old age, what is the shift in dominant qualities?",The qualities shift from Cold and Moist in infancy to Cold and Dry in old age.
+Which humor's abnormal state is theorized to be the cause of most chronic conditions due to the weakening of $Physis$ after age 40?,The Melancholic humor (Black Bile) is the theorized cause.
+How does the Phlegmatic temperament typically influence a person's speech pattern?,The speech pattern is typically slow and soft.
+A 'macho stride' gait is characteristic of which dominant temperament?,A macho stride is characteristic of the Sanguinous temperament.
+What emotional traits are typically linked to a Bilious (Choleric) temperament?,"Traits include being aggressive, angry, irritable, or impatient."
+Which temperament is predisposed to gas-related disorders and insomnia?,The Melancholic temperament is predisposed to these conditions.
+"According to research, 100% of Type 2 Diabetes patients were found to have which dominant/sub-dominant temperament?",They were found to have a Sanguinous temperament.
+Which humor is associated with 'productive' coughs according to qualitative diagnosis?,The Phlegmatic humor is associated with productive coughs.
+What qualitative imbalance is linked to the development of a dry cough?,A dry cough is linked to an increase in Dryness (often associated with Bilious or Melancholic humors).
+The condition of Osteoarthritis is interpreted as having which specific qualitative imbalance?,Osteoarthritis is interpreted as Dryness with Coldness and Heat.
+"Which humor, when excessive, is linked to symptoms of 'heaviness' and 'slowness'?",Excessive Phlegm is linked to these symptoms.
+What did the ancient Coan school focus on as the primary target of treatment?,The Coan school focused on the whole patient and their environment.
+"In humoral theory, why were rapid fluctuations in temperature considered dangerous?",They were believed to cause sudden and harmful changes in humoral balance.
+"The Latin phrase 'Primum non nocere' (First, do no harm) is a core tenet derived from which ancient text?",It is derived from the book $Epidemics$ in the Hippocratic Corpus.
+Which faculty regulates the immune system and is seated in the Heart?,The Vital faculty regulates the immune system.
+"Which specific humor is associated with the 'Get it right' personality type (thoughtful, logical, analytical)?",The Melancholic humor (Black Bile) is associated with this type.
+What is the primary qualitative goal when treating an excess of the Melancholic humor?,The goal is to increase heating qualities to counteract coldness and dryness.
+The 'rete mirabile' was a structure used by Galen to explain the production of which spirit?,It was used to explain the production of 'psychic pneuma' in the brain.
+Which humor is described as 'hot and wet' and associated with a 'sanguine' disposition?,Blood is described as hot and wet.
+"In the four-element system, Earth is associated with which two qualities?",Earth is associated with Cold and Dry qualities.
+Which element represents the qualities of 'hot and dry'?,Fire represents hot and dry qualities.
+The 'Physiological' perspective of health in Tibb defines it as the right proportion of humors according to their _____.,Quality and quantity.
+"Which humor is linked to skin textures that are 'cool, moist, and soft'?",The Phlegmatic humor is linked to these textures.
+How did Hippocratic physicians test bodily fluids like urine or sweat without modern labs?,"They used their five senses, including tasting, smelling, and touching the fluids."
+"According to the source, what happens to $Physis$ after the age of 40?",The ability of $Physis$ to restore homeostasis begins to weaken.
+Which humor is linked to 'excitable and disorganized' emotional traits?,The Sanguinous humor (Blood) is linked to these traits.
+The term for a personality type dominated by Yellow Bile is _____.,Choleric (or Bilious)
+Which two qualities are essential for the 'maintenance of life' and the avoidance of chronic illness according to the source?,Heat and Moistness are essential for life.
+Excessive moisture in the body is believed to be a good conductor for which type of bodily impulse?,It is believed to be a good conductor for electrical (nerve) impulses.
+"In humoral diagnosis, a reddish complexion is a sign of a dominance in which humor?",It is a sign of dominance in Blood (Sanguinous).
+Which temperament prefers 'cold and dry' conditions like winter and autumn?,The Sanguinous temperament prefers these conditions.
+The Melancholic temperament is said to prefer which type of climatic conditions?,It prefers hot and moist conditions (summer and rainy weather).
+What is the typical sleep pattern associated with a Bilious temperament?,"The pattern is moderate but sound sleep, typically 5 to 6 hours."
+Which humor is associated with a 'whitish or pale' skin texture?,The Phlegmatic humor is associated with a pale skin texture.
+The concept that 'the body contains four humors' was most notably added to the Hippocratic tradition by which tract?,It was added by the tract $On$ $the$ $Nature$ $of$ $Man$.
