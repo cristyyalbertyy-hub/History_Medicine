@@ -1,3 +1,5 @@
+import { publicAsset } from "./publicAsset";
+
 export type TopicAssets = {
   video: string;
   podcast: string;
@@ -26,40 +28,40 @@ export const branches: Branch[] = [
         id: "AF_MAG",
         title: "Medicine of Ancient Greece",
         assets: {
-          video: "/AF_MAG_V.mp4",
-          podcast: "/AF_MAG_P.m4a",
-          infographic: "/AF_MAG_I.png",
-          questionnaire: "/AF_MAG_Q.csv",
+          video: publicAsset("/AF_MAG_V.mp4"),
+          podcast: publicAsset("/AF_MAG_P.m4a"),
+          infographic: publicAsset("/AF_MAG_I.png"),
+          questionnaire: publicAsset("/AF_MAG_Q.csv"),
         },
       },
       {
         id: "AF_HRM",
         title: "Hippocrates and Rational Medicine",
         assets: {
-          video: "/AF_HRM_V.mp4",
-          podcast: "/AF_HRM_P.m4a",
-          infographic: "/AF_HRM_I.png",
-          questionnaire: "/AF_HRM_Q.csv",
+          video: publicAsset("/AF_HRM_V.mp4"),
+          podcast: publicAsset("/AF_HRM_A.m4a"),
+          infographic: publicAsset("/AF_HRM_I.png"),
+          questionnaire: publicAsset("/AF_HRM_Q.csv"),
         },
       },
       {
         id: "AF_THM",
         title: "Theory of Humors",
         assets: {
-          video: "/AF_TH_V.mp4",
-          podcast: "/AF_TH_P.m4a",
-          infographic: "/AF_TH_I.png",
-          questionnaire: "/AF_TH_Q.csv",
+          video: publicAsset("/AF_TH_V.mp4"),
+          podcast: publicAsset("/AF_TH_P.m4a"),
+          infographic: publicAsset("/AF_TH_I.png"),
+          questionnaire: publicAsset("/AF_TH_Q.csv"),
         },
       },
       {
         id: "AF_ARI",
         title: "Aristotle",
         assets: {
-          video: "/AF_A_V.mp4",
-          podcast: "/AF_A_P.m4a",
-          infographic: "/AF_A_I.png",
-          questionnaire: "/AF_A_Q.csv",
+          video: publicAsset("/AF_A_V.mp4"),
+          podcast: publicAsset("/AF_A_P.m4a"),
+          infographic: publicAsset("/AF_A_I.png"),
+          questionnaire: publicAsset("/AF_A_Q.csv"),
         },
       },
     ],
