@@ -250,7 +250,7 @@ function BranchAccordion({
 }
 
 export default function App() {
-  const [expandedBranchId, setExpandedBranchId] = useState<string>(branches[0]?.id ?? "");
+  const [expandedBranchId, setExpandedBranchId] = useState<string>("");
   const [open, setOpen] = useState<{ branchTitle: string; topic: LeafTopic } | null>(null);
 
   const toggleBranch = (id: string) => {
