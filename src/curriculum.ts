@@ -73,22 +73,42 @@ export const branches: Branch[] = [
       {
         id: "SA_SRE",
         title: "Scientific Revolution",
-        assets: null,
+        assets: {
+          video: publicAsset("/SA_SR_V.mp4"),
+          podcast: publicAsset("/SA_SR_P.m4a"),
+          infographic: publicAsset("/SA_SR_I.png"),
+          questionnaire: publicAsset("/SA_SR_Q.csv"),
+        },
       },
       {
         id: "SA_VES",
         title: "Andreas Vesalius and Dissection",
-        assets: null,
+        assets: {
+          video: publicAsset("/SA_AVD_V.mp4"),
+          podcast: publicAsset("/SA_AVD_P.m4a"),
+          infographic: publicAsset("/SA_AVD_I.png"),
+          questionnaire: publicAsset("/SA_AVD_Q.csv"),
+        },
       },
       {
         id: "SA_HAR",
         title: "William Harvey",
-        assets: null,
+        assets: {
+          video: publicAsset("/SA_WH_V.mp4"),
+          podcast: publicAsset("/SA_WH_P.m4a"),
+          infographic: publicAsset("/SA_WH_I.png"),
+          questionnaire: publicAsset("/SA_WH_Q.csv"),
+        },
       },
       {
         id: "SA_FLE",
         title: "Alexander Fleming",
-        assets: null,
+        assets: {
+          video: publicAsset("/SA_AF_V.mp4"),
+          podcast: publicAsset("/SA_AF_P.m4a"),
+          infographic: publicAsset("/SA_AF_I.png"),
+          questionnaire: publicAsset("/SA_AF_Q.csv"),
+        },
       },
     ],
   },
