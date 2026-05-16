@@ -119,17 +119,32 @@ export const branches: Branch[] = [
       {
         id: "PH_JEN",
         title: "Edward Jenner and Vaccines",
-        assets: null,
+        assets: {
+          video: publicAsset("/PH_EJV_Vx.mp4"),
+          podcast: publicAsset("/PH_EJV_P.m4a"),
+          infographic: publicAsset("/PH_EJV_I.png"),
+          questionnaire: publicAsset("/PH_EJV_Q.csv"),
+        },
       },
       {
         id: "PH_SEM",
         title: "Ignaz Semmelweis",
-        assets: null,
+        assets: {
+          video: publicAsset("/PH_IS_V.mp4"),
+          podcast: publicAsset("/PH_IS_P.m4a"),
+          infographic: publicAsset("/PH_IS_I.png"),
+          questionnaire: publicAsset("/PH_IS_Q.csv"),
+        },
       },
       {
         id: "PH_MGE",
         title: "Medical Geography",
-        assets: null,
+        assets: {
+          video: publicAsset("/PH_MG_Vx.mp4"),
+          podcast: publicAsset("/PH_MG_P.m4a"),
+          infographic: publicAsset("/PH_MG_I.png"),
+          questionnaire: publicAsset("/PH_MG_Q.csv"),
+        },
       },
       {
         id: "PH_SNO",
