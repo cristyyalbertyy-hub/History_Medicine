@@ -16,13 +16,17 @@ export type LeafTopic = {
 export type Branch = {
   id: string;
   title: string;
+  color: string;
   topics: LeafTopic[];
 };
+
+export const courseTitle = "History of Medicine";
 
 export const branches: Branch[] = [
   {
     id: "ancient",
     title: "Ancient Foundations",
+    color: "#14213d",
     topics: [
       {
         id: "AF_MAG",
@@ -69,6 +73,7 @@ export const branches: Branch[] = [
   {
     id: "scientific",
     title: "Scientific Advancement",
+    color: "#2d4636",
     topics: [
       {
         id: "SA_SRE",
@@ -115,6 +120,7 @@ export const branches: Branch[] = [
   {
     id: "public",
     title: "Public Health",
+    color: "#d36b31",
     topics: [
       {
         id: "PH_JEN",
