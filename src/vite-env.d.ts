@@ -1,6 +1,6 @@
 /// <reference types="vite/client" />
 
-declare const __PUBLIC_ASSET_VERSION__: string;
+declare const __ASSET_Q__: string;
 
 interface ImportMetaEnv {
   readonly VITE_FIREBASE_API_KEY: string
