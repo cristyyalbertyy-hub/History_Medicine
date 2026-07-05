@@ -220,6 +220,7 @@ function TopicContent({
         role="tabpanel"
         id={`panel-${tab}`}
         aria-labelledby={`tab-${tab}`}
+        onContextMenu={(event) => event.preventDefault()}
       >
         {!assets ? (
           <div className="media-stage--placeholder">
@@ -230,13 +231,20 @@ function TopicContent({
           </div>
         ) : tab === "video" ? (
           <div className="media-panel">
-            <video className="video" controls playsInline preload="metadata" src={assets.video}>
+            <video
+              className="video"
+              controls
+              controlsList="nodownload"
+              playsInline
+              preload="metadata"
+              src={assets.video}
+            >
               Your browser does not support HTML5 video.
             </video>
           </div>
         ) : tab === "podcast" ? (
           <div className="media-panel">
-            <audio className="audio" controls preload="metadata" src={assets.podcast}>
+            <audio className="audio" controls controlsList="nodownload" preload="metadata" src={assets.podcast}>
               Your browser does not support HTML5 audio.
             </audio>
           </div>
