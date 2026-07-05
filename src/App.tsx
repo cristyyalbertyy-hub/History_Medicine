@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { ProgressLink } from "./components/ProgressLink";
 import type { Branch, LeafTopic } from "./curriculum";
 import { branches, courseTitle } from "./curriculum";
 import { parseQuizCsv, type QuizRow } from "./parseQuizCsv";
@@ -330,9 +329,6 @@ export default function App() {
       <p className="overview-hint muted">
         Open a coloured branch below, then choose a topic to start.
       </p>
-      <p className="overview-progress muted">
-        Already enrolled? <ProgressLink className="progress-link--inline" />
-      </p>
       <button type="button" className="mobile-browse-btn" onClick={() => setMobileMenuOpen(true)}>
         Browse branches →
       </button>
@@ -397,7 +393,6 @@ export default function App() {
           <span className="home-overview-btn__label">Course overview</span>
         </button>
         <h1>{courseTitle}</h1>
-        <ProgressLink className="progress-link--header" compact />
       </header>
 
       {showMobileLessonBar && mobileLessonContext ? (
@@ -429,7 +424,6 @@ export default function App() {
               />
             ))}
           </nav>
-          <ProgressLink className="progress-link--sidebar" />
         </div>
 
         <main
