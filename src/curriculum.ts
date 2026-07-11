@@ -152,11 +152,6 @@ export const branches: Branch[] = [
           questionnaire: publicAsset("/PH_MG_Q.csv"),
         },
       },
-      {
-        id: "PH_SNO",
-        title: "John Snow and Cholera",
-        assets: null,
-      },
     ],
   },
 ];
