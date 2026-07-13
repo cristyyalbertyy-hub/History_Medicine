@@ -3,6 +3,7 @@ import type { Branch, LeafTopic } from "./curriculum";
 import { branches, courseTitle } from "./curriculum";
 import { parseQuizCsv, type QuizRow } from "./parseQuizCsv";
 import { publicAsset } from "./publicAsset";
+import { useAuth } from "./context/AuthContext";
 
 type Tab = "video" | "podcast" | "infographic" | "questions";
 
@@ -267,6 +268,7 @@ function TopicContent({
 }
 
 export default function App() {
+  const { userEmail, logout } = useAuth();
   const [openBranches, setOpenBranches] = useState(() =>
     collapsedRecord(branches.map((b) => b.id)),
   );
@@ -401,6 +403,18 @@ export default function App() {
           <span className="home-overview-btn__label">Course overview</span>
         </button>
         <h1>{courseTitle}</h1>
+        {userEmail ? (
+          <div className="app-header__actions">
+            <div className="auth-account">
+              <span className="auth-account__email" title={userEmail}>
+                {userEmail}
+              </span>
+              <button type="button" className="btn-ghost" onClick={() => void logout()}>
+                Sair
+              </button>
+            </div>
+          </div>
+        ) : null}
       </header>
 
       {showMobileLessonBar && mobileLessonContext ? (
