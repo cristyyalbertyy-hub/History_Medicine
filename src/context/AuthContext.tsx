@@ -165,6 +165,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const unsubscribe = onAuthStateChanged(auth, (nextUser) => {
       if (!mounted) return
       setUser(nextUser)
+      if (nextUser?.email) {
+        persistStudio9LaunchEmail(nextUser.email)
+        setLaunchEmail(nextUser.email)
+      }
       setLoading(false)
     })
 
@@ -221,7 +225,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     () => ({
       loading,
       user,
-      userEmail: user?.email ?? launchEmail,
+      userEmail: user?.email ?? launchEmail ?? getStudio9DisplayEmail(),
       entitlement,
       entitlementLoading,
       entitlementError,
