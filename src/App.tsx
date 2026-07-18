@@ -4,6 +4,8 @@ import { branches, courseTitle } from "./curriculum";
 import { parseQuizCsv, type QuizRow } from "./parseQuizCsv";
 import { publicAsset } from "./publicAsset";
 import { useAuth } from "./context/AuthContext";
+import { useMediaProgress } from "./hooks/useMediaProgress";
+import { bindPlaybackProgress } from "./lib/playbackProgress";
 
 type Tab = "video" | "podcast" | "infographic" | "questions";
 
@@ -179,10 +181,25 @@ function TopicContent({
   onTabChange: (tab: Tab) => void;
 }) {
   const assets = topic.assets;
+  const { trackWatchComplete } = useMediaProgress(topic.id);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
     if (!assets) onTabChange("video");
   }, [assets, topic.id, onTabChange]);
+
+  useEffect(() => {
+    const el = videoRef.current;
+    if (!el || tab !== "video" || !assets) return;
+    return bindPlaybackProgress(el, () => void trackWatchComplete("V"));
+  }, [tab, assets, topic.id, trackWatchComplete]);
+
+  useEffect(() => {
+    const el = audioRef.current;
+    if (!el || tab !== "podcast" || !assets) return;
+    return bindPlaybackProgress(el, () => void trackWatchComplete("P"));
+  }, [tab, assets, topic.id, trackWatchComplete]);
 
   const tabs: { id: Tab; label: string }[] = [
     { id: "video", label: "Video" },
@@ -233,6 +250,7 @@ function TopicContent({
         ) : tab === "video" ? (
           <div className="media-panel">
             <video
+              ref={videoRef}
               className="video"
               controls
               controlsList="nodownload"
@@ -245,7 +263,14 @@ function TopicContent({
           </div>
         ) : tab === "podcast" ? (
           <div className="media-panel">
-            <audio className="audio" controls controlsList="nodownload" preload="metadata" src={assets.podcast}>
+            <audio
+              ref={audioRef}
+              className="audio"
+              controls
+              controlsList="nodownload"
+              preload="metadata"
+              src={assets.podcast}
+            >
               Your browser does not support HTML5 audio.
             </audio>
           </div>
