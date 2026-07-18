@@ -4,11 +4,11 @@ import { getFirestoreDb, PACKAGE_ID } from '../lib/firebase'
 import { progressDocId, recordWatchComplete, type AutoResource } from '../lib/progress-client'
 
 export function useMediaProgress(itemKey: string | undefined) {
-  const { user, hasAccess } = useAuth()
+  const { user } = useAuth()
 
   const trackWatchComplete = useCallback(
     async (resource: AutoResource) => {
-      if (!user || !hasAccess || !itemKey) return
+      if (!user || !itemKey) return
       try {
         const level = await recordWatchComplete(
           getFirestoreDb(),
@@ -23,7 +23,7 @@ export function useMediaProgress(itemKey: string | undefined) {
         console.warn('Could not save watch progress:', { id, packageId: PACKAGE_ID, itemKey, resource, err })
       }
     },
-    [user, hasAccess, itemKey],
+    [user, itemKey],
   )
 
   return { trackWatchComplete }
